@@ -1,0 +1,35 @@
+{
+  "name": "theme-mk",
+  "displayName": "theme-mk",
+  "description": "minki's theme",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.92.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/leeminki02/theme-mk.git"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "theme-mk 1 green",
+        "uiTheme": "vs-dark",
+        "path": "./themes/theme-mk-origin-color-theme.json"
+      },
+      {
+        "label": "theme-mk 2 purple",
+        "uiTheme": "vs-dark",
+        "path": "./themes/theme-mk-color-theme.json"
+      },
+      {
+        "label": "theme-mk 3 skyblue",
+        "uiTheme": "vs-dark",
+        "path": "./themes/theme-mk-rebuilt-color-theme.json"
+      }
+    ]
+  }
+}

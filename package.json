@@ -2,7 +2,7 @@
   "name": "theme-mk",
   "displayName": "theme-mk",
   "description": "minki's theme",
-  "version": "0.4.0",
+  "version": "0.5.0",
   "engines": {
     "vscode": "^1.92.0"
   },
@@ -35,6 +35,11 @@
         "label": "theme-mk 4 papaya",
         "uiTheme": "vs-dark",
         "path": "./themes/papaya-theme-mk-rebuilt-color-theme.json"
+      },
+      {
+        "label": "theme-mk ice",
+        "uiTheme": "vs-dark",
+        "path": "./themes/theme-mk-ice-theme.json"
       }
     ]
   }

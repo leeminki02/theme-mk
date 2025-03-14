@@ -74,7 +74,6 @@
 
 		"minimap.background": "#1a1b1e",
 		"minimap.errorHighlight": "#d95757",
-		"minimap.findMatchHighlight": "#6c5980",
 		"minimap.selectionHighlight": "#409fff4d",
 		"minimapGutter.addedBackground": "#7fd962",
 		"minimapGutter.deletedBackground": "#f26d78",

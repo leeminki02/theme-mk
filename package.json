@@ -1,46 +1,46 @@
 {
-  "name": "theme-mk",
-  "displayName": "theme-mk",
-  "description": "minki's theme",
-  "version": "0.5.0",
-  "engines": {
-    "vscode": "^1.92.0"
-  },
   "categories": [
     "Themes"
   ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "mk iceBlack",
+        "path": "./themes/ice-mk-color-theme.json",
+        "uiTheme": "vs-dark"
+      },
+      {
+        "label": "mk green",
+        "path": "./themes/theme-mk-origin-color-theme.json",
+        "uiTheme": "vs-dark"
+      },
+      {
+        "label": "mk purple",
+        "path": "./themes/theme-mk-color-theme.json",
+        "uiTheme": "vs-dark"
+      },
+      {
+        "label": "mk skyblue",
+        "path": "./themes/theme-mk-rebuilt-color-theme.json",
+        "uiTheme": "vs-dark"
+      },
+      {
+        "label": "mk papaya",
+        "path": "./themes/papaya-theme-mk-rebuilt-color-theme.json",
+        "uiTheme": "vs-dark"
+      }
+    ]
+  },
+  "description": "minki's theme",
+  "displayName": "theme-mk",
+  "engines": {
+    "vscode": "^1.96.0"
+  },
+  "name": "theme-mk",
   "publisher": "dev-mk02",
   "repository": {
     "type": "git",
     "url": "https://github.com/leeminki02/theme-mk.git"
   },
-  "contributes": {
-    "themes": [
-      {
-        "label": "theme-mk 1 green",
-        "uiTheme": "vs-dark",
-        "path": "./themes/theme-mk-origin-color-theme.json"
-      },
-      {
-        "label": "theme-mk 2 purple",
-        "uiTheme": "vs-dark",
-        "path": "./themes/theme-mk-color-theme.json"
-      },
-      {
-        "label": "theme-mk 3 skyblue",
-        "uiTheme": "vs-dark",
-        "path": "./themes/theme-mk-rebuilt-color-theme.json"
-      },
-      {
-        "label": "theme-mk 4 papaya",
-        "uiTheme": "vs-dark",
-        "path": "./themes/papaya-theme-mk-rebuilt-color-theme.json"
-      },
-      {
-        "label": "theme-mk ice",
-        "uiTheme": "vs-dark",
-        "path": "./themes/theme-mk-ice-theme.json"
-      }
-    ]
-  }
+  "version": "0.5.1"
 }
